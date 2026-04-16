@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://vercel.com/018vishnuteja-7545s-projects/mentor-mentee-frontend/6mwWWJEAHsxpgdpPgFcdsf9uu3Ti',
         changeOrigin: true,
       }
     }
