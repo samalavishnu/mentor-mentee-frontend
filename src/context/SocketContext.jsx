@@ -12,7 +12,7 @@ export function SocketProvider({ children }) {
   useEffect(() => {
     if (!isAuthenticated || !token) return
 
-    const socket = io('http://localhost:5000', {
+    const socket = io('https://mentor-mentee-backend-l7q1.onrender.com', {
       auth: { token },
       transports: ['websocket', 'polling'],
     })

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:5000'
+const BASE_URL = 'https://mentor-mentee-backend-l7q1.onrender.com'
 
 const API = axios.create({
   baseURL: `${BASE_URL}/api`,
